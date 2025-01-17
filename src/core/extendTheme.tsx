@@ -1,5 +1,5 @@
 import { theme as defaultTheme, Theme } from './../theme';
-import mergeWith from 'lodash.mergewith';
+import { mergeWith } from 'lodash';
 
 function isFunction(value: any): boolean {
   return typeof value === 'function';

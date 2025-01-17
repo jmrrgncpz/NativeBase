@@ -1,5 +1,5 @@
-import get from 'lodash.get';
-import merge from 'lodash.merge';
+import { get } from 'lodash';
+import { merge } from 'lodash';
 import { Platform } from 'react-native';
 import { useNativeBase } from '../useNativeBase';
 import { useColorMode } from '../../core/color-mode';

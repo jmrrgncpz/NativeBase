@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-import get from 'lodash.get';
+import { get } from 'lodash';
 import { transparentize } from './tools';
 import type { ITheme } from '.';
 import type { UseResponsiveQueryParams } from '../utils/useResponsiveQuery';

@@ -1,8 +1,8 @@
-import omitBy from 'lodash.omitby';
-import isNil from 'lodash.isnil';
-import pick from 'lodash.pick';
-import omit from 'lodash.omit';
-import get from 'lodash.get';
+import { omitBy } from 'lodash';
+import { isNil } from 'lodash';
+import { pick } from 'lodash';
+import { omit } from 'lodash';
+import { get } from 'lodash';
 import type { IV33xTheme } from '../index';
 import { Platform } from 'react-native';
 

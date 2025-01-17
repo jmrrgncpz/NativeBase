@@ -1,5 +1,5 @@
 import { useWindowDimensions } from 'react-native';
-import isNil from 'lodash.isnil';
+import { isNil } from 'lodash';
 
 type QueryKeys =
   | 'maxWidth'

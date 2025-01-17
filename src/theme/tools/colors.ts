@@ -1,5 +1,5 @@
-import get from 'lodash.get';
-import isEmpty from 'lodash.isempty';
+import { get } from 'lodash';
+import { isEmpty } from 'lodash';
 import Color from 'tinycolor2';
 import type { Dict } from './utils';
 

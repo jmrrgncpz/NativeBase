@@ -1,4 +1,4 @@
-import isNil from 'lodash.isnil';
+import { isNil } from 'lodash';
 import React from 'react';
 import Flex from '../../primitives/Flex';
 import type { IWrapProps } from './types';

@@ -1,7 +1,7 @@
 import React, { memo, forwardRef } from 'react';
 import { useToggleState } from '@react-stately/toggle';
 import { Switch as RNSwitch } from 'react-native';
-import isNil from 'lodash.isnil';
+import { isNil } from 'lodash';
 import { usePropsResolution } from '../../../hooks/useThemeProps';
 import { useToken } from '../../../hooks';
 import { makeStyledComponent } from '../../../utils/styled';

@@ -1,7 +1,7 @@
 import { themeTools } from '../../theme';
 import { baseFontSize } from '../../theme/tools/utils';
 import type { SafeAreaProps } from './../../components/types/ExtraProps';
-import isNil from 'lodash.isnil';
+import { isNil } from 'lodash';
 
 export function calculatePaddingProps(
   safeAreaProps: SafeAreaProps,

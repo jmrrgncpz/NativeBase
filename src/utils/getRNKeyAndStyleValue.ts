@@ -1,5 +1,5 @@
 import { Platform } from 'react-native';
-import get from 'lodash.get';
+import { get } from 'lodash';
 import { convertStringNumberToNumber } from './convertStringNumberToNumber';
 import { resolveValueWithBreakpoint } from '../hooks/useThemeProps/utils';
 

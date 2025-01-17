@@ -1,4 +1,4 @@
-import cloneDeep from 'lodash.clonedeep';
+import { cloneDeep } from 'lodash';
 import React from 'react';
 import PresenceTransition from './PresenceTransition';
 import type { ISupportedTransitions, ITransitionConfig } from './types';

@@ -11,7 +11,7 @@ import {
   useIsPressed,
 } from '../../primitives/Pressable/Pressable';
 import { useFocusRing } from '@react-native-aria/focus';
-import merge from 'lodash.merge';
+import { merge } from 'lodash';
 
 const IconButton = (
   {

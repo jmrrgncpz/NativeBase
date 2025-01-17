@@ -3,8 +3,7 @@ import { Box, Image } from '../../primitives';
 import { usePropsResolution } from '../../../hooks/useThemeProps';
 import type { IAvatarProps } from './types';
 import { useHasResponsiveProps } from '../../../hooks/useHasResponsiveProps';
-import isNil from 'lodash.isnil';
-import has from 'lodash.has';
+import { isNil, has } from 'lodash';
 
 const Avatar = ({ children, ...props }: IAvatarProps, ref: any) => {
   const [error, setError] = React.useState(false);

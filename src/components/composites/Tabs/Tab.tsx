@@ -7,7 +7,7 @@ import { omitUndefined } from '../../../theme/tools/utils';
 import { useTab } from '@react-native-aria/tabs';
 import { useHover } from '@react-native-aria/interactions';
 import { mergeRefs } from '../../../utils';
-import merge from 'lodash.merge';
+import { merge } from 'lodash';
 import { themeTools } from '../../../theme';
 import { useHasResponsiveProps } from '../../../hooks/useHasResponsiveProps';
 

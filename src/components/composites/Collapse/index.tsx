@@ -1,4 +1,4 @@
-import isNil from 'lodash.isnil';
+import { isNil } from 'lodash';
 import React, { useEffect, useRef, forwardRef } from 'react';
 import { ViewStyle, LayoutAnimation, UIManager, Platform } from 'react-native';
 import { Box } from '../../primitives';

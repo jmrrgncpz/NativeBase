@@ -2,7 +2,7 @@ import React, { memo, forwardRef } from 'react';
 import SVGIcon from './SVGIcon';
 import { Path } from './nbSvg';
 import type { IcreateIconProps } from './types';
-import isEmpty from 'lodash.isempty';
+import { isEmpty } from 'lodash';
 
 export const createIcon = ({ path, d, ...initialProps }: IcreateIconProps) => {
   const createdIcon = (props: any, ref: any) => {

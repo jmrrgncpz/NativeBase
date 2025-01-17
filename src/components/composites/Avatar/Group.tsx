@@ -1,7 +1,7 @@
 import React, { memo, forwardRef } from 'react';
 import Box from '../../primitives/Box';
 import { usePropsResolution } from '../../../hooks/useThemeProps';
-import isNil from 'lodash.isnil';
+import { isNil } from 'lodash';
 import type { IAvatarGroupProps } from './types';
 import { default as Avatar } from './Avatar';
 import { useHasResponsiveProps } from '../../../hooks/useHasResponsiveProps';

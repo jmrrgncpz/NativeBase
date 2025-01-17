@@ -1,7 +1,7 @@
-import get from 'lodash.get';
-import isNil from 'lodash.isnil';
-import mergeWith from 'lodash.mergewith';
-import cloneDeep from 'lodash.clonedeep';
+import { get } from 'lodash';
+import { isNil } from 'lodash';
+import { mergeWith } from 'lodash';
+import { cloneDeep } from 'lodash';
 import { themePropertyMap } from './../../theme/base';
 import {
   getClosestBreakpoint,

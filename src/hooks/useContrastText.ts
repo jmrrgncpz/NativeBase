@@ -39,7 +39,7 @@ export function useContrastText(bg: string, color?: string) {
     themeColorsThresholdShades[bgThemeColorVariant]
       ? getContrastThemeColor(bgThemeColorVariant, bgShade)
       : getAccessibleContrastColor(
-          contrastThreshold,
+          Number(contrastThreshold),
           trueDarkText,
           trueLightText,
           trueBg,

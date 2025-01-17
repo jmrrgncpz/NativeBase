@@ -1,10 +1,9 @@
 import React from 'react';
 import { useId } from '@react-native-aria/utils';
-import omit from 'lodash.omit';
+import { omit, uniqueId } from 'lodash';
 import type { IFormControlProps } from './types';
 import { ariaAttr } from '../../../utils';
 import { ResponsiveQueryContext } from '../../../utils/useResponsiveQuery/ResponsiveQueryProvider';
-import uniqueId from 'lodash.uniqueid';
 
 export type IFormControlContext = Omit<
   ReturnType<typeof useFormControlProvider>,

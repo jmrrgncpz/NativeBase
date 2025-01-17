@@ -1,6 +1,6 @@
-import get from 'lodash.get';
-import merge from 'lodash.merge';
-import isEmpty from 'lodash.isempty';
+import { get } from 'lodash';
+import { merge } from 'lodash';
+import { isEmpty } from 'lodash';
 import { Platform } from 'react-native';
 import { useNativeBase } from '../useNativeBase';
 import { useColorMode } from '../../core/color-mode';

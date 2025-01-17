@@ -1,4 +1,4 @@
-import merge from 'lodash.merge';
+import { merge } from 'lodash';
 
 const SPECIFICITY_100 = 100;
 const SPECIFICITY_70 = 70;
